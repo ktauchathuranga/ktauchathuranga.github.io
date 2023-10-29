@@ -1,0 +1,78 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : white
+* Version  : 1.0
+* Author   : Ashen Chathuranga
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:#ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #ffffff;
+  }
+  .color{
+      color: #ffffff;
+  }
+  #about-content a{
+      color:#ffffff ;
+  }
+  .cv a button{
+      background: #ffffff;
+  }
+  .service-img img{
+    background: #ffffff;
+    box-shadow:0px 0px 0px 0px #ffffff ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #ffffff ;
+}
+.html-progress{
+    background: #ffffff;
+}
+.js-progress{
+    background: #ffffff;
+}
+.adobe-progress{
+    background: #ffffff;
+}
+.php-progress{
+    background: #ffffff;
+}
+.jquery-progress{
+    background: #ffffff;
+}
+.seo-progress{
+    background: #ffffff;
+}
+.portfolio-text h2{
+    color: #ffffff;
+}
+.portfolio-text button{
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+}
+.portfolio-text button::before{
+    background: #ffffff;
+}
+.portfolio-image img::before{
+    background: #ffffff;
+}
+.blog-date{
+    background: #ffffff;
+}
+form button{
+    background: #ffffff;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #ffffff ;
+    }
+}
