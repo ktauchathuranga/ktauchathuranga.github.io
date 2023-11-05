@@ -1239,6 +1239,9 @@ form button:hover{
     font-family: poppins;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 1;
 }
 .footer .footer-text{
     position: relative;
