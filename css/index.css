@@ -1229,6 +1229,17 @@ form button:hover{
     align-items: center;
     justify-content: center;
 }
+
+.count{
+    width: 100%;
+    padding: 5px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    font-family: poppins;
+    align-items: center;
+    justify-content: center;
+}
 .footer .footer-text{
     position: relative;
     display: inline;
