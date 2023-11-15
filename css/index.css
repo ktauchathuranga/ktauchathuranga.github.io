@@ -682,7 +682,7 @@ body{
    position: relative;
    overflow: hidden;
 }
-.html-progress{
+.python-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -695,7 +695,7 @@ body{
     border-radius: 10px;
     background: #00FF00;
 }
-.js-progress{
+.arduino-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -709,7 +709,7 @@ body{
     border-radius: 10px;
     background: #00FF00;
 }
-.adobe-progress{
+.iot-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -718,7 +718,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:83%;
+    width:90%;
     border-radius: 10px;
     background: #00FF00;
 }
@@ -730,12 +730,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width:60%;
+    border-radius: 10px;
+    background: #00FF00;
+    transition: all .4s ease;
+}
+.git-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
     width:85%;
     border-radius: 10px;
     background: #00FF00;
-    transition: all .4s ease;
 }
-.jquery-progress{
+.html-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -743,20 +756,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .4s ease;
-    width:94%;
-    border-radius: 10px;
-    background: #00FF00;
-}
-.seo-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:84%;
+    width:50%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #00FF00;
