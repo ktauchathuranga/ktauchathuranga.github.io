@@ -2576,3 +2576,11 @@ for tabs and large phones
         transition: all .4s ease;
     }
 }
+
+#count {
+    font-family: monospace;
+    font-weight: bold;
+    display: inline-block;
+    width: 300px; /* Adjust this width as needed */
+    text-align: left; /* Ensures text aligns to the left within the fixed width */
+}
