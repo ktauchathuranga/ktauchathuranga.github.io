@@ -1,671 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <META HTTP-EQUIV='Content-Security-Policy' CONTENT="script-src 'self' 'unsafe-inline' 'unsafe-eval' *;">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ashen Chathuranga" />
-    <meta name="keywords" content="ktauchathuranga, ashen chathuranga, github" />
-    <meta name="author" content="Ashen Chathuranga" />
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Ashen Chathuranga</title>
-    <!--favicon-img-->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <!--favicon-img-->
-    <!--main css file should not be removed -->
-    <link rel="stylesheet" href="css/index.css">
-    <!--main css file-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-    <script src="js/countdown.js"></script>
-</head>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css" />
+  </head>
 
-<body>
-    <!--contains all the div-->
-    <div id="all">
-        <!--mouse  follower-->
-        <div class="cursor"></div>
-        <!--mouse  follower-->
-        <!--loader-->
-        <div id="loader">
-            <span class="color">Ashen</span>Chathuranga
+  <body>
+    <div class="loading-screen">
+      <div class="inner">
+        <div class="text-box">
+          <h3>Ashen Chathuranga</h3>
         </div>
-        <!--loader-end-->
-        <!--link-screen-->
-        <div id="breaker">
+        <div class="line-frame">
+          <div class="line"></div>
         </div>
-        <div id="breaker-two">
-        </div>
-        <!--link-screen-->
-        <!--Main-Section-->
-        <!--Navigator-fullscreen-->
-        <div id="navigation-content">
-            <div class="logo">
-                <img src="images/ashen logo.png" alt="logo">
-            </div>
-            <div class="navigation-close">
-                <span class="close-first"></span>
-                <span class="close-second"></span>
-            </div>
-            <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link">HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
-                <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
-                <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
-                <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
-            </div>
-        </div>
-        <!--Navigator-Fullscreen END-->
-        <!--Home Page-->
-        <!--Menubar-->
-        <div id="navigation-bar">
-            <img src="images/ashen logo.png" alt="logo">
-            <div class="menubar">
-                <span class="first-span"></span>
-                <span class="second-span"></span>
-                <span class="third-span"></span>
-            </div>
-        </div>
-        <!--Menubar End-->
-        <!--Header-->
-        <div id="header">
-            <div id="particles"></div>
-            <!--Social Media Links-->
-            <div class="social-media-links">
-                <!-- <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a> -->
-                <!--Your instagram homepage link inser in place of "#"-->
-                <a href="https://www.facebook.com/ktauchathuranga/" target="_blank" rel="noopener noreferrer"><img src="images/facebook logo.png"
-                        class="social-media" alt="facebook-logo"></a>
-                <a href="https://www.linkedin.com/in/ktauchathuranga/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin logo.png"
-                        class="social-media" alt="linkedin-logo"></a>
-                <a href="https://twitter.com/ktauchathuranga" target="_blank" rel="noopener noreferrer"><img src="images/twitter logo.png" class="social-media"
-                        alt="twitter-logo"></a>
-                <a href="https://github.com/ktauchathuranga" target="_blank" rel="noopener noreferrer"><img src="images/github logo.png" class="social-media"
-                        alt="github-logo"></a>
-
-            </div>
-            <!--Social Media Links end-->
-            <div class="header-content">
-                <div class="header-content-box">
-                    <div class="firstline"><span class="color">Ashen </span>Chathuranga</div>
-                    <div class="secondline">
-                        I'm a
-                        <span class="txt-rotate color" data-period="1200"
-                            data-rotate='[ " Software Developer.", " Student.", " Freelancer.", " Microcontroller Enthusiast." ]'></span>
-                        <span class="slash">|</span>
-                    </div>
-                    <div class="contact">
-                        <a href="Mailto:ktauchathuranga@gmail.com"><img src="images/mail.png" alt="email-pic"
-                                class="contactpic"></a><!--Your email Id write in place of "#"-->
-                        <a href="Tel:#"><img src="images/call.png" alt="phone-pic"
-                                class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
-                    </div>
-                </div>
-            </div>
-            
-            <!--countdown timer-->
-            <div class="count">
-                    To That Date:&nbsp;<div id="count"></div>
-            </div>
-            <!--countdown timer end-->
-
-            <!--header image-->
-            <div class="header-image">
-                <img src="images/man.jpg" alt="logo"> <!-- main pic-->
-            </div>
-            <!--header image end-->
-        </div>
-        <!--Header End-->
-        <!--HomePage End-->
-        <!--Main-Section End-->
-        <!--about-->
-        <div id="about">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-white" title="color-white"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--about content-->
-            <div id="about-content">
-                <div class="about-header">
-                    About <span class="color">Me</span>
-                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
-                </div>
-                <div class="about-main">
-                    <div class="about-first-paragraph wow">
-                        <!--about description-->
-                        <span class="about-first-line">
-                            I'm creative
-                            <span class="color">software developer</span>
-                            based in Embilipitiya , Sri Lanka </span>
-                        <br>
-                        <span class="about-second-line"> I have arround 3 years of experiance as a Software Developer, I
-                            have done many projects for my personal desires and i helped for some projects from my
-                            friends. I enjoy every step while doing projects and when it comes to problems
-                            solving.</span>
-                        <div class="cv">
-                            <a href="#"><button type="button">Download <span class="colors">CV</span></button></a>
-                        </div>
-                    </div>
-                    <!--about picture-->
-                    <div class="about-img">
-                        <img src="images/about.jpg" alt="Your Image">
-                    </div>
-                </div>
-
-            </div>
-            <!--services start-->
-            <div id="services">
-                <div class="color-changer">
-                    <div class="color-panel">
-                        <img src="images/gear.png" alt="">
-                    </div>
-                    <div class="color-selector">
-                        <div class="heading">Custom Colors</div>
-                        <div class="colors">
-                            <ul>
-                                <li>
-                                    <a href="#0" class="color-red " title="color-red"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-purple" title="color-purple"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-malt" title="color-malt"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-green" title="color-green"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-blue" title="color-blue"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-orange" title="color-orange"></a>
-                                </li>
-                                <li>
-                                    <a href="#0" class="color-white" title="color-white"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--services header-->
-                <div class="services-heading wow">
-                    <span class="color">My</span> Services
-                </div>
-                <!--services header end-->
-                <!--services content-->
-                <div class="services-content">
-                    <div class="service-one service wow">
-                        <div class="service-img">
-                            <img src="images/coding.png" alt="service-one">
-                        </div>
-                        <div class="service-description">
-                            <h2>Software Development & Embeded Systems/IOT</h2>
-                            <p> !to develop</p>
-                        </div>
-                    </div>
-                    <div class="service-two service wow">
-                        <div class="service-img">
-                            <img src="images/instagram.png" alt="service-two">
-                        </div>
-                        <div class="service-description">
-                            <h2>Social Media</h2>
-                            <p>!to develop</p>
-                        </div>
-                    </div>
-                    <div class="service-three service wow">
-                        <div class="service-img">
-                            <img src="images/bulb.png" alt="service-three">
-                        </div>
-                        <div class="service-description">
-                            <h2>!to develop</h2>
-                            <p>!to develop</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--services content end-->
-            <!--services end-->
-            <div id="skills">
-                <div class="skills-header">
-                    My <span class="color"> Skills</span>
-                </div>
-                <div class="skills-content " style="text-align: center;">
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                Python
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="python-progress wow">95%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                Arduino
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="arduino-progress wow">90%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                IOT
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="iot-progress wow">90%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                PHP
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="php-progress wow">60%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                Git
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="git-progress wow">85%</div>
-                        </div>
-                    </div>
-                    <div class="skill-html skill">
-                        <div class="skill-text">
-                            <div class="html">
-                                HTML
-                            </div>
-                        </div>
-                        <div class="html-prog wow prog">
-                            <div class="html-progress wow">50%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--copyright-section-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Ashen
-                    Chathuranga
-                </div>
-            </div>
-            <!--copyright-section-->
-        </div>
-        <!--about end-->
-        <!--portfolio-->
-        <div id="portfolio">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-white" title="color-white"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-                <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
-            </div>
-            <div id="portfolio-content">
-                <div class="portfolio portfolio-first">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>MorseEncoder</h2>
-                        <p>Arduino Library for Encoding Data to Morse Code (Audio and Light).</p>
-                        <div class="button"><a href="https://github.com/ktauchathuranga/MorseEncoder" target="_blank"><button type="button"><span
-                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio portfolio-second">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>NetCommand</h2>
-                        <p>Simple IOT Project Using ESP32!</p>
-                        <div class="button"><a href="https://github.com/ktauchathuranga/NetCommand" target="_blank"><button type="button"><span
-                                        class="index"> View Project<i class="gg-arrow-right"></i></span></button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio portfolio-third">
-                    <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>Tuition Class Management System (TCMS)</h2>
-                        <p>University project that use SQL DB and C</p>
-                        <div class="button"><a href="https://github.com/ktauchathuranga/tuition-class-management-system" target="_blank"><button type="button"><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-                <div class="portfolio portfolio-fourth">
-                    <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
-                    </div>
-                    <div class="portfolio-text">
-                        <h2>!to develop</h2>
-                        <p>!to develop</p>
-                        <div class="button"><a href="#"><button type="button"><span class="index"> View Project<i
-                                            class="gg-arrow-right"></i></span></button></a></div>
-                    </div>
-                </div>
-            </div>
-            <!--copyright-section-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Ashen
-                    Chathuranga
-                </div>
-            </div>
-            <!--copyright-section-->
-        </div>
-        <!--portfolio end-->
-        <!--blog-->
-        <div id="blog">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-white" title="color-white"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-header"> Blogs</span>
-                <span class="header-caption"> My Latest <span class="color"> blog posts.</span></span>
-            </div>
-            <div class="blog-content">
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/git-and-github.png" alt="blog-one">
-                            <div class="blog-date">14 May,24</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>Stup Git and GitHub SSH</h3>
-                            <p>Download the guide text file in <a href="resources/git-ssh-setup.txt">here.</a></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-two.jpg" alt="blog-two">
-                            <div class="blog-date">16 Jan,20</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>!to develop</h3>
-                            <p>!to develop</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-three.jpg" alt="blog-three">
-                            <div class="blog-date">30 Nov,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>!to develop</h3>
-                            <p>!to develop</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-four.jpg" alt="blog-four">
-                            <div class="blog-date">6 Jul,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>!to develop</h3>
-                            <p>!to develop</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-five.jpg" alt="blog-five">
-                            <div class="blog-date">1 Jun,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>!to develop</h3>
-                            <p>!to develop</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="blogs">
-                    <a href="#">
-                        <div class="img">
-                            <img src="images/post-six.jpg" alt="blog-six">
-                            <div class="blog-date">28 Feb,19</div>
-                        </div>
-                        <div class="blog-text">
-                            <h3>!to develop</h3>
-                            <p>!to develop</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!--copyright-section-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Ashen
-                    Chathuranga
-                </div>
-            </div>
-            <!--copyright-section-->
-        </div>
-        <!--blog end-->
-        <!--contact-->
-        <div id="contact">
-            <div class="color-changer">
-                <div class="color-panel">
-                    <img src="images/gear.png" alt="">
-                </div>
-                <div class="color-selector">
-                    <div class="heading">Custom Colors</div>
-                    <div class="colors">
-                        <ul>
-                            <li>
-                                <a href="#0" class="color-red " title="color-red"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-purple" title="color-purple"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-malt" title="color-malt"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-green" title="color-green"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-blue" title="color-blue"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-orange" title="color-orange"></a>
-                            </li>
-                            <li>
-                                <a href="#0" class="color-white" title="color-white"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-header">Contact <span class="color"> Me</span>
-                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
-            </div>
-            <div class="contact-content">
-                <!--Contact form-->
-                <div class="contact-form">
-                    <div class="form-header">
-                        Message Me
-                    </div>
-                    <form id="myForm" action="#">
-                        <div class="input-line">
-                            <input id="name" type="text" placeholder="Name" class="input-name" autocomplete="name">
-                            <input id="email" type="email" placeholder="Email" class="input-name" autocomplete="email">
-                        </div>
-                        <input type="text" id="subject" placeholder="subject" class="input-subject">
-                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
-                        <button type="button" id="submit" value="send">Submit</button>
-                    </form>
-
-                </div>
-                <!--Contact form-->
-                <!--Contact information-->
-                <div class="contact-info">
-                    <div class="contact-info-header">
-                        Contact Info
-                    </div>
-                    <div class="contact-info-content">
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Name</h6>
-                                <p>Ashen Chathuranga</p>
-                            </div>
-                        </div>
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Location</h6>
-                                <p>Embilipitiya, Sri Lanka</p>
-                            </div>
-                        </div>
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Call</h6>
-                                <p>!to develop</p>
-                            </div>
-                        </div>
-
-                        <div class="contect-info-content-line">
-                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
-                            <div class="contact-info-icon-text">
-                                <h6>Email</h6>
-                                <p>ktauchathuranga@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Contact information end-->
-                </div>
-            </div>
-            <!--copyright-section-->
-            <div class="footer">
-                <div class="footer-text">
-                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Ashen
-                    Chathuranga
-                </div>
-            </div>
-            <!--copyright-section-->
-        </div>
-        <!--contact end-->
+      </div>
     </div>
-    <!--all the divisions-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/index.js"></script>
-    <!--particles script-->
-    <script>
-        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
-    </script>
-
-</body>
-
+    <div class="m-menu-button">
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="m-menu">
+      <div class="m-menu-inner noselect">
+        <div class="head m-b-2">
+          <p class="small">Menu</p>
+        </div>
+        <ul class="main-items">
+          <li>
+            <a class="scroll-to" href="#intro"
+              ><span class="ti-location-pin"></span>
+              <p class="small">Home</p>
+            </a>
+          </li>
+          <li>
+            <a class="scroll-to" href="#about"
+              ><span class="ti-user"></span>
+              <p class="small">About</p>
+            </a>
+          </li>
+          <li>
+            <a class="scroll-to" href="#resume"
+              ><span class="ti-align-left"></span>
+              <p class="small">Resume</p>
+            </a>
+          </li>
+          <li>
+            <a class="scroll-to" href="#portfolio"
+              ><span class="ti-view-grid"></span>
+              <p class="small">Portfolio</p>
+            </a>
+          </li>
+          <li>
+            <a class="scroll-to" href="#contact"
+              ><span class="ti-comments"></span>
+              <p class="small">Contact</p>
+            </a>
+          </li>
+          <!-- <li><a href="shortcodes.html" target="_blank"><span class="ti-new-window"></span>
+                              <p class="small">Shortcodes</p>
+                         </a></li> -->
+        </ul>
+        <div class="head m-b-2 m-t-7">
+          <p class="small">Social</p>
+        </div>
+        <div class="social-items">
+          <div class="item">
+            <a href="https://www.instagram.com/ktauchathuranga/"
+              ><span class="ti-instagram"></span
+            ></a>
+          </div>
+          <div class="item">
+            <a href="https://www.linkedin.com/in/ktauchathuranga/"
+              ><span class="ti-linkedin"></span
+            ></a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/ktauchathuranga"
+              ><span class="ti-github"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div class="left-content noselect">
+        <div class="inner-content">
+          <div class="name">
+            <p class="small color-white">Ashen Chathuranga</p>
+            <div class="seperator-line"></div>
+          </div>
+          <div class="picture-box">
+            <div class="picture"></div>
+          </div>
+          <div class="frame-1 frame"></div>
+          <div class="frame-2 frame"></div>
+          <div class="frame-3 frame"></div>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="inner-content">
+          <div class="section-container">
+            <div
+              class="section height-100 y-center"
+              style="padding-bottom: 2rem"
+              id="intro"
+            >
+              <div class="container">
+                <p class="tag m-b-4">INTRODUCTION</p>
+                <h1 class="m-b-5 m-l-3">
+                  I'm a Software Developer & Microcontroller Enthusiast
+                </h1>
+                <div class="seperator-line"></div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 26rem" id="about">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">ABOUT</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Turning ideas into code and solving real-world challenges.
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="scroll-animation">
+                  Hi, I'm Ashen Chathuranga, a developer with a passion for
+                  crafting efficient, scalable solutions. Whether it's backend
+                  systems, cryptography, or microcontroller projects, I enjoy
+                  tackling complex problems and finding creative ways to
+                  optimize performance. I'm always looking to push the
+                  boundaries of what's possible with technology. Let's build
+                  something great together!
+                </p>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">ACHIEVEMENTS</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Developing Innovative Solutions: Transforming ideas into
+                  impact.
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-5 scroll-animation">
+                  Consistently delivering efficient and scalable solutions in
+                  various tech fields. Proven track record of problem-solving,
+                  optimizing performance, and pushing boundaries in technology.
+                </p>
+                <div class="card-grid scroll-animation">
+                  <div class="left-side">
+                    <div
+                      class="item noselect"
+                      style="background-color: #181818"
+                    >
+                      <div class="item-container">
+                        <h2>0</h2>
+                        <p>Awards</p>
+                      </div>
+                    </div>
+                    <div class="item" style="background-color: #080808">
+                      <div class="item-container">
+                        <h2>2</h2>
+                        <p>Softwares</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="right-side m-t-6">
+                    <div class="item" style="background-color: #111">
+                      <div class="item-container">
+                        <h2>10+</h2>
+                        <p>Projects</p>
+                      </div>
+                    </div>
+                    <div class="item" style="background-color: #030303">
+                      <div class="item-container">
+                        <h2>100%</h2>
+                        <p>Client ROI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">SERVICES</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">What I can do.</h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-4 scroll-animation">
+                  Bringing technical expertise and innovative solutions to meet
+                  your needs.<br />Dedicated to solving complex challenges
+                  efficiently.
+                </p>
+                <ul
+                  class="accordion"
+                  data-active-index="false"
+                  data-slide-Speed="200"
+                >
+                  <li class="accordion-item scroll-animation">
+                    <div>
+                      <h5>Development</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        System Architecture - API Integration - Performance
+                        Optimization - Custom Software Solutions
+                      </p>
+                    </div>
+                  </li>
+                  <li class="accordion-item scroll-animation">
+                    <div>
+                      <h5>Embedded Systems</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Microcontroller Programming - IoT Solutions - Sensor
+                        Integration - Real-time Data Processing
+                      </p>
+                    </div>
+                  </li>
+                  <li class="accordion-item scroll-animation">
+                    <div>
+                      <h5>Security & Cryptography</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Data Encryption - Cryptographic Systems - Secure
+                        Communication Protocols - System Security Audits
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem" id="resume">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">RESUME</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">Experience</h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-6 scroll-animation">
+                  With a strong foundation in development and embedded systems,
+                  I've tackled a variety of technical challenges.<br />From
+                  optimizing system performance to implementing secure
+                  communication protocols, I bring expertise and problem-solving
+                  skills to each project.
+                </p>
+                <div class="resume">
+                  <div class="item m-b-6 scroll-animation">
+                    <p class="color-white m-b-1-5 small">
+                      Self<span class="m-l-2 color-white">2021-Current</span>
+                    </p>
+                    <p class="color-white m-b-1">Software Developer</p>
+                    <p>
+                      Leveraging technical skills to design and implement
+                      innovative software solutions, focusing on performance
+                      optimization and secure communication.
+                    </p>
+                  </div>
+                  <div class="item m-b-6 scroll-animation">
+                    <p class="color-white m-b-1-5 small">
+                      Freelance Projects<span class="m-l-2 color-white"
+                        >2022-Current</span
+                      >
+                    </p>
+                    <p class="color-white m-b-1">Developer</p>
+                    <p>
+                      Engaged in various projects, delivering custom software
+                      solutions and improving system functionalities across
+                      different domains.
+                    </p>
+                  </div>
+                  <div class="item scroll-animation">
+                    <p class="color-white m-b-1-5 small">
+                      Internships<span class="m-l-2 color-white"
+                        >2024-Current</span
+                      >
+                    </p>
+                    <p class="color-white m-b-1">Project Management</p>
+                    <p>
+                      Managed projects from conception to completion,
+                      coordinating teams and resources to ensure successful
+                      delivery within timelines and budgets.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">SKILLS</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Skills I have collected<br />over the years and days.
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <div class="skill-bar scroll-animation">
+                  <div class="head noselect">
+                    <h5>Python</h5>
+                  </div>
+                  <div class="bar m-b-2">
+                    <div class="fill" style="width: 85%"></div>
+                    <div class="number-tag noselect" style="left: 90%">
+                      <p class="small">90%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-bar m-b-2 scroll-animation">
+                  <div class="head noselect">
+                    <h5>C/C++</h5>
+                  </div>
+                  <div class="bar">
+                    <div class="fill" style="width: 70%"></div>
+                    <div class="number-tag noselect" style="left: 80%">
+                      <p class="small">80%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-bar scroll-animation">
+                  <div class="head noselect">
+                    <h5>HTML/CSS/JS</h5>
+                  </div>
+                  <div class="bar">
+                    <div class="fill" style="width: 95%"></div>
+                    <div class="number-tag noselect" style="left: 95%">
+                      <p class="small">95%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem" id="portfolio">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">PORTFOLIO</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">Selected Work</h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-6 scroll-animation">
+                  Lorem ipsum dolor sit amet, consectetur.<br />adipiscing elit.
+                  Aenean et elementum purus.
+                </p>
+                <div class="work-grid">
+                  <div class="item noselect work-lightbox scroll-animation">
+                    <div class="icon-button">
+                      <span class="ti-arrow-right"></span>
+                    </div>
+                    <div class="info">
+                      <p class="color-white">Immersive Solutions</p>
+                      <div class="seperator-line m-t-1"></div>
+                    </div>
+                    <div
+                      class="cover"
+                      style="
+                        background-image: url(assets/images/work/item-1/preview.jpg);
+                      "
+                    ></div>
+                    <div class="lightbox-content">
+                      <div class="lightbox-images">
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-1/1.jpg"
+                        ></div>
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-1/2.jpg"
+                        ></div>
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-1/3.jpg"
+                        ></div>
+                      </div>
+                      <div class="info-content">
+                        <h3 class="m-b-3">Immersive Solutions</h3>
+                        <div class="seperator-line m-b-3"></div>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item noselect m-t-6 work-lightbox scroll-animation"
+                  >
+                    <div class="icon-button">
+                      <span class="ti-arrow-right"></span>
+                    </div>
+                    <div class="info">
+                      <p class="color-white">Surface Experience</p>
+                      <div class="seperator-line m-t-1"></div>
+                    </div>
+                    <div
+                      class="cover"
+                      style="
+                        background-image: url(assets/images/work/item-2/preview.jpg);
+                      "
+                    ></div>
+                    <div class="lightbox-content">
+                      <div class="lightbox-images">
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-2/1.jpg"
+                        ></div>
+                      </div>
+                      <div class="info-content">
+                        <h3 class="m-b-3">Surface Experience</h3>
+                        <div class="seperator-line m-b-3"></div>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item noselect m-t-6 work-lightbox scroll-animation"
+                  >
+                    <div class="icon-button">
+                      <span class="ti-arrow-right"></span>
+                    </div>
+                    <div class="info">
+                      <p class="color-white">Adaptive Generation</p>
+                      <div class="seperator-line m-t-1"></div>
+                    </div>
+                    <div
+                      class="cover"
+                      style="
+                        background-image: url(assets/images/work/item-3/preview.jpg);
+                      "
+                    ></div>
+                    <div class="lightbox-content">
+                      <div class="lightbox-images">
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-3/1.jpg"
+                        ></div>
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-3/2.jpg"
+                        ></div>
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-3/3.jpg"
+                        ></div>
+                      </div>
+                      <div class="info-content">
+                        <h3 class="m-b-3">Adaptive Generation</h3>
+                        <div class="seperator-line m-b-3"></div>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item noselect m-t-6 work-lightbox scroll-animation"
+                  >
+                    <div class="icon-button">
+                      <span class="ti-arrow-right"></span>
+                    </div>
+                    <div class="info">
+                      <p class="color-white">Frame Manufacturer</p>
+                      <div class="seperator-line m-t-1"></div>
+                    </div>
+                    <div
+                      class="cover"
+                      style="
+                        background-image: url(assets/images/work/item-4/preview.jpg);
+                      "
+                    ></div>
+                    <div class="lightbox-content">
+                      <div class="lightbox-images">
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-4/1.jpg"
+                        ></div>
+                        <div
+                          class="item"
+                          data-image="assets/images/work/item-4/2.jpg"
+                        ></div>
+                      </div>
+                      <div class="info-content">
+                        <h3 class="m-b-3">Frame Manufacturer</h3>
+                        <div class="seperator-line m-b-3"></div>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">CUSTOMERS</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">Selected Clients</h3>
+                <div class="seperator-line m-b-6 scroll-animation"></div>
+                <div class="customer-grid scroll-animation">
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/1.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/2.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/3.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/4.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/5.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item m-b-5">
+                    <img
+                      src="assets/images/clients/6.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="assets/images/clients/7.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="assets/images/clients/8.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="assets/images/clients/9.png"
+                      class="img-responsive"
+                      alt="logo"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">TESTIMONIALS</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  What my customers<br />are saying about me?
+                </h3>
+                <div class="seperator-line m-b-6 scroll-animation"></div>
+                <div class="testimonial-carousel scroll-animation">
+                  <div class="item">
+                    <p class="quote">
+                      "We chose Lenoox because it's the perfect combination of
+                      convenience and quality. Team takes care of getting us
+                      high-quality images quickly and more than build jacket
+                      efficiently."
+                    </p>
+                    <p class="name m-t-3 color-white">Elena Clouse</p>
+                    <p class="role">CEO Stellar Inc.</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">
+                      "We chose Lenoox because it's the perfect combination of
+                      convenience and quality. Team takes care of getting us
+                      high-quality images quickly and more than build jacket
+                      efficiently."
+                    </p>
+                    <p class="name m-t-3 color-white">Brandon Hadid</p>
+                    <p class="role">CTO Market Hero</p>
+                  </div>
+                  <div class="item">
+                    <p class="quote">
+                      "We chose Lenoox because it's the perfect combination of
+                      convenience and quality. Team takes care of getting us
+                      high-quality images quickly and more than build jacket
+                      efficiently."
+                    </p>
+                    <p class="name m-t-3 color-white">John Miller</p>
+                    <p class="role">CTO SpaceX Industries</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">PRICING</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Find the plan that’s<br />right for your business.
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-4 scroll-animation">
+                  Lorem ipsum dolor sit amet, consectetur.<br />adipiscing elit.
+                  Aenean et elementum purus.
+                </p>
+                <ul
+                  class="accordion pricing-accordion"
+                  data-active-index="false"
+                  data-slide-Speed="200"
+                >
+                  <li
+                    class="accordion-item pricing-item scroll-animation"
+                    style="background-color: #030303"
+                  >
+                    <div class="head">
+                      <div class="icon"></div>
+                      <p class="small color-white m-b-0-5">Full-Time</p>
+                      <div class="price">
+                        <h2 class="m-l-1">$55</h2>
+                        <p class="m-l-2">/each hour</p>
+                      </div>
+                      <div class="seperator-line m-t-2"></div>
+                    </div>
+                    <div class="content">
+                      <div class="features m-t-3 m-b-3">
+                        <div class="feature-item">
+                          <span class="ti-check"></span>
+                          <p>Remote</p>
+                        </div>
+                        <div class="feature-item">
+                          <span class="ti-check"></span>
+                          <p>Weekends</p>
+                        </div>
+                        <div class="feature-item">
+                          <span class="ti-check"></span>
+                          <p>Daily Reports</p>
+                        </div>
+                        <div class="feature-item">
+                          <span class="ti-check"></span>
+                          <p>24/7 Support</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div
+                  class="pricing-item m-b-2 m-t-3 scroll-animation"
+                  style="background-color: #181818"
+                >
+                  <p class="small color-white m-b-0-5">Contract</p>
+                  <div class="price">
+                    <h2 class="m-l-1">$79</h2>
+                    <p class="m-l-2">/each hour</p>
+                  </div>
+                  <div class="seperator-line m-t-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">FAQ</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Do you have questions?
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <ul
+                  class="accordion"
+                  data-active-index="1"
+                  data-slide-Speed="200"
+                >
+                  <li class="accordion-item scroll-animation">
+                    <div class="">
+                      <h5>Can I purchase for commercial work?</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard since the 1500s.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="accordion-item scroll-animation">
+                    <div class="">
+                      <h5>How does the daily update work?</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard since the 1500s.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="accordion-item scroll-animation">
+                    <div class="">
+                      <h5>Do you use long term contracts?</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard since the 1500s.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="accordion-item scroll-animation">
+                    <div class="">
+                      <h5>Can you work full time?</h5>
+                      <div class="icon"></div>
+                    </div>
+                    <div>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard since the 1500s.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section" style="padding-bottom: 20rem" id="contact">
+              <div class="container">
+                <p class="tag m-b-3 scroll-animation">CONTACT</p>
+                <h3 class="m-b-4 m-l-1 scroll-animation">
+                  Let’s get in touch.
+                </h3>
+                <div class="seperator-line m-b-4 scroll-animation"></div>
+                <p class="m-b-6 scroll-animation">
+                  Fill out my form below and send me an email.
+                </p>
+                <form
+                  id="contact-form"
+                  action="https://creazione.avanzare.co/reframe/demo/assets/contact.php"
+                  method="post"
+                  autocomplete="off"
+                >
+                  <input
+                    type="text"
+                    id="contact-form-name"
+                    class="scroll-animation"
+                    name="name"
+                    placeholder="* Name"
+                  />
+                  <input
+                    type="text"
+                    id="contact-form-email"
+                    class="scroll-animation m-t-5"
+                    name="email"
+                    placeholder="* E-Mail"
+                  />
+                  <input
+                    data-require-filling="false"
+                    type="text"
+                    id="contact-form-phone"
+                    class="scroll-animation m-t-5"
+                    name="phone"
+                    placeholder="Phone"
+                  />
+                  <div class="hpc">
+                    <input
+                      type="text"
+                      id="contact-form-country"
+                      name="taxid"
+                      placeholder="* Tax ID"
+                    />
+                  </div>
+                  <textarea
+                    id="contact-form-message"
+                    class="scroll-animation m-t-5"
+                    name="message"
+                    placeholder="* Message"
+                  ></textarea>
+                  <div class="button-area m-t-5 scroll-animation">
+                    <button type="submit" class="default-button">
+                      <span class="button-text">Send</span>
+                      <span class="icon-button m-l-2"
+                        ><span class="ti-arrow-right"></span
+                      ></span>
+                    </button>
+                    <p class="small">* Marked fields are required to fill.</p>
+                  </div>
+                  <div class="success-box">
+                    <div class="icon-button m-r-2">
+                      <span class="ti-check"></span>
+                    </div>
+                    <p>Your Message has been sent!</p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
