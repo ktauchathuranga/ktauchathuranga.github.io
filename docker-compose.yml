@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ktauchathuranga-website
+    build: .
+    ports:
+      - "80:80"
+    restart: unless-stopped
